@@ -1,7 +1,7 @@
 Support is Easy
 ===================
 
-http://www.joduska.me/forum/topic/170-aio-support-is-easy/?hl=support
+http://www.joduska.me/forum/topic/170-aio-support-is-easy
 
 Alistar		
 Blitzcrank	
@@ -23,7 +23,7 @@ Zyra - WIP
 Marksman#
 ===================
 
-http://www.joduska.me/forum/topic/7290-marksman/?hl=marksman#entry86141
+http://www.joduska.me/forum/topic/7290-marksman/
 
 Ashe	
 Caitlyn	
@@ -50,7 +50,7 @@ Varus
 Master Series
 ===================
 
-http://www.joduska.me/forum/topic/938-master-series-06122014-0110-am-7-gmt/?hl=%20master%20%20jungle
+http://www.joduska.me/forum/topic/938-master-series-06122014-0110-am-7-gmt/
 
 Amumu	
 DrMundo	
