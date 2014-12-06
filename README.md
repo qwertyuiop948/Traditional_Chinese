@@ -45,3 +45,23 @@ Twitch
 Urgot	
 Vayne	
 Varus	
+
+
+Master Series
+===================
+
+http://www.joduska.me/forum/topic/938-master-series-06122014-0110-am-7-gmt/?hl=%20master%20%20jungle
+
+Amumu	
+DrMundo	
+Garen	
+JarvanIV (Broken)	
+Jax	
+LeeSin	
+Nasus	
+Rammus	
+Renekton	
+Shen	
+Tryndamere	
+Udyr	
+XinZhao	
