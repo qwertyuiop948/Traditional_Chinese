@@ -25,23 +25,23 @@ Marksman#
 
 http://www.joduska.me/forum/topic/7290-marksman/?hl=marksman#entry86141
 
-Ashe
-Caitlyn
-Corki
-Draven
-Ezreal
-Gnar
-Graves
-Jinx
-Kalista
-Kog'maw
-Lucian
-Miss Fortune
-Quinn
-Sivir
-Teemo
-Tristana
-Twitch
-Urgot
-Vayne
-Varus
+Ashe	
+Caitlyn	
+Corki	
+Draven	
+Ezreal	
+Gnar	
+Graves	
+Jinx	
+Kalista	
+Kog'maw	
+Lucian	
+Miss Fortune	
+Quinn	
+Sivir	
+Teemo	
+Tristana	
+Twitch	
+Urgot	
+Vayne	
+Varus	
