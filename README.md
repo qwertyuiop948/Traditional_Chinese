@@ -122,3 +122,10 @@ FedCaitlyn
 
 Github¡Ghttps://github.com/gFederal/LeagueSharp		
 L# Forum¡Ghttp://www.joduska.me/forum/topic/261-sbtw-caitlyn/
+
+
+MasterSharp-Yi
+===================
+
+Github¡Ghttps://github.com/detuks/LeagueSharp/tree/master/MasterSharp	
+L# Forum¡Ghttp://www.joduska.me/forum/topic/7345-i-hope-its-opmastersharp-da-true-yi-good-update-on/
