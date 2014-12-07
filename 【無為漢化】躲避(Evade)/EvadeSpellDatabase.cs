@@ -59,7 +59,7 @@ namespace Evade
             #endregion
 
             //Walking.
-            spell = new EvadeSpellData("Walking", 1);
+            spell = new EvadeSpellData("走位躲避", 1);
             Spells.Add(spell);
 
             #region Champion MoveSpeed buffs
@@ -640,12 +640,12 @@ namespace Evade
             //Flash
             if (ObjectManager.Player.GetSpellSlot("SummonerFlash") != SpellSlot.Unknown)
             {
-                spell = new BlinkData("Flash", ObjectManager.Player.GetSpellSlot("SummonerFlash"), 400, 100, 5, true);
+                spell = new BlinkData("闪现躲避", ObjectManager.Player.GetSpellSlot("SummonerFlash"), 400, 100, 5, true);
                 Spells.Add(spell);
             }
 
             //Zhonyas
-            spell = new EvadeSpellData("Zhonyas", 5);
+            spell = new EvadeSpellData("中亚躲避", 5);
             Spells.Add(spell);
 
             #region Champion Shields

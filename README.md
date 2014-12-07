@@ -35,9 +35,9 @@ Ezreal
 Gnar	
 Graves	
 Jinx	
-Kalista	
-Kog'maw	
-Lucian	
+Kalista		
+Kog'maw		
+Lucian		
 Miss Fortune	
 Quinn	
 Sivir	
@@ -101,3 +101,10 @@ SFXUtility
 
 Github¡Ghttps://github.com/SephLeague/LeagueSharp	
 L# Forum¡GµL
+
+
+Evade#
+===================
+
+Github¡Ghttps://github.com/Esk0r/LeagueSharp	
+L# Forum¡Ghttp://www.joduska.me/forum/topic/26-evade/
