@@ -73,7 +73,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "冷却时间"; }
+            get { return "冷卻時間"; }
         }
 
         #endregion
@@ -114,9 +114,9 @@ namespace SFXUtility.Feature
 
                     Menu = new Menu(Name, Name);
 
-                    var eEMenuItem = new MenuItem(Name + "EnemyEnabled", "追踪敌人").SetValue(true);
-                    var aAMenuItem = new MenuItem(Name + "AllyEnabled", "追踪队友").SetValue(true);
-                    var eMenuItem = new MenuItem(Name + "Enabled", "启用").SetValue(true);
+                    var eEMenuItem = new MenuItem(Name + "EnemyEnabled", "追蹤敵人").SetValue(true);
+                    var aAMenuItem = new MenuItem(Name + "AllyEnabled", "追蹤隊友").SetValue(true);
+                    var eMenuItem = new MenuItem(Name + "Enabled", "啟用").SetValue(true);
 
                     Menu.AddItem(eEMenuItem);
                     Menu.AddItem(aAMenuItem);

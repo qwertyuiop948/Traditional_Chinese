@@ -98,7 +98,7 @@ namespace Killability
 
             InitDrawing();
 
-            Game.PrintChat("■婃■愮ず by h3h3 鍔犺澆鎴愬姛!奼■寲by濱■嫍!QQ緹361630847.");
+            Game.PrintChat("Killability by h3h3 loaded.");
         }
 
         private void InitDrawing()

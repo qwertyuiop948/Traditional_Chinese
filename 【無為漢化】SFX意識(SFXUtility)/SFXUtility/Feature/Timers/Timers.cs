@@ -51,7 +51,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "無為汉化─定时"; }
+            get { return "無為漢化─定時"; }
         }
 
         #endregion

@@ -52,7 +52,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "無為汉化─药水"; }
+            get { return "無為漢化─藥水"; }
         }
 
         #endregion
@@ -70,7 +70,7 @@ namespace SFXUtility.Feature
                 {
                     IoC.Resolve<Mediator>().NotifyColleagues(Name + "_initialized", this);
                 }
-                Menu.AddItem(new MenuItem(Name + "Enabled", "启用").SetValue(true));
+                Menu.AddItem(new MenuItem(Name + "Enabled", "啟用").SetValue(true));
                 BaseMenu.AddSubMenu(Menu);
 
                 Initialized = true;

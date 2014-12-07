@@ -111,7 +111,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "自动红药"; }
+            get { return "自動紅藥"; }
         }
 
         #endregion
@@ -130,19 +130,19 @@ namespace SFXUtility.Feature
 
                     Menu = new Menu(Name, Name);
 
-                    var healthMenu = new Menu("红药", Name + "Health");
-                    healthMenu.AddItem(new MenuItem(Name + "HealthPotion", "使用生命药水").SetValue(true));
+                    var healthMenu = new Menu("紅藥", Name + "Health");
+                    healthMenu.AddItem(new MenuItem(Name + "HealthPotion", "使用生命藥水").SetValue(true));
                     healthMenu.AddItem(
-                        new MenuItem(Name + "HealthPercent", "剩余生命").SetValue(new Slider(60)));
+                        new MenuItem(Name + "HealthPercent", "剩餘生命").SetValue(new Slider(60)));
 
-                    var manaMenu = new Menu("蓝药", Name + "Mana");
-                    manaMenu.AddItem(new MenuItem(Name + "ManaPotion", "使用法力药水").SetValue(true));
-                    manaMenu.AddItem(new MenuItem(Name + "ManaPercent", "剩余法力").SetValue(new Slider(60)));
+                    var manaMenu = new Menu("藍藥", Name + "Mana");
+                    manaMenu.AddItem(new MenuItem(Name + "ManaPotion", "使用法力藥水").SetValue(true));
+                    manaMenu.AddItem(new MenuItem(Name + "ManaPercent", "剩餘法力").SetValue(new Slider(60)));
 
                     Menu.AddSubMenu(healthMenu);
                     Menu.AddSubMenu(manaMenu);
 
-                    Menu.AddItem(new MenuItem(Name + "Enabled", "启用").SetValue(false));
+                    Menu.AddItem(new MenuItem(Name + "Enabled", "啟用").SetValue(false));
 
                     _activators.Menu.AddSubMenu(Menu);
 

@@ -133,11 +133,11 @@ namespace SFXUtility.Feature
 
                     Menu = new Menu(Name, Name);
 
-                    var drawingMenu = new Menu("绘制", Name + "Drawing");
+                    var drawingMenu = new Menu("繪製", Name + "Drawing");
                     drawingMenu.AddItem(
-                        new MenuItem(Name + "DrawingCircleColor", "圆圈颜色").SetValue(Color.YellowGreen));
+                        new MenuItem(Name + "DrawingCircleColor", "圓圈顏色").SetValue(Color.YellowGreen));
                     drawingMenu.AddItem(
-                        new MenuItem(Name + "DrawingCircleRadius", "圆圈半径").SetValue(new Slider(30)));
+                        new MenuItem(Name + "DrawingCircleRadius", "圓圈半徑").SetValue(new Slider(30)));
 
                     Menu.AddSubMenu(drawingMenu);
 

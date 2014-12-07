@@ -75,7 +75,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "自动击杀"; }
+            get { return "自動擊殺"; }
         }
 
         private bool HeroSpellEnabled
@@ -117,20 +117,20 @@ namespace SFXUtility.Feature
 
                     Menu = new Menu(Name, Name);
 
-                    var spellsMenu = new Menu("法术", Name + "Spells");
-                    spellsMenu.AddItem(new MenuItem(Name + "SpellsSmite", "使用击打").SetValue(true));
+                    var spellsMenu = new Menu("法術", Name + "Spells");
+                    spellsMenu.AddItem(new MenuItem(Name + "SpellsSmite", "使用擊打").SetValue(true));
                     spellsMenu.AddItem(new MenuItem(Name + "SpellsNunu", "使用努努 Q").SetValue(true));
-                    spellsMenu.AddItem(new MenuItem(Name + "SpellsChogath", "使用大虫子ㄧ R").SetValue(true));
-                    spellsMenu.AddItem(new MenuItem(Name + "SpellsOlaf", "使用奥拉夫ㄧ E").SetValue(true));
+                    spellsMenu.AddItem(new MenuItem(Name + "SpellsChogath", "使用大蟲子ㄧ R").SetValue(true));
+                    spellsMenu.AddItem(new MenuItem(Name + "SpellsOlaf", "使用奧拉夫ㄧ E").SetValue(true));
 
-                    var drawingMenu = new Menu("绘制", Name + "Drawing");
-                    drawingMenu.AddItem(new MenuItem(Name + "DrawingUseableColor", "可用颜色").SetValue(Color.Blue));
+                    var drawingMenu = new Menu("繪製", Name + "Drawing");
+                    drawingMenu.AddItem(new MenuItem(Name + "DrawingUseableColor", "可用顏色").SetValue(Color.Blue));
                     drawingMenu.AddItem(
-                        new MenuItem(Name + "DrawingUnusableColor", "不可用的颜色").SetValue(Color.Gray));
-                    drawingMenu.AddItem(new MenuItem(Name + "DrawingDamageColor", "损害颜色").SetValue(Color.SkyBlue));
-                    drawingMenu.AddItem(new MenuItem(Name + "DrawingSmiteRange", "攻击范围").SetValue(true));
-                    drawingMenu.AddItem(new MenuItem(Name + "DrawingHeroSpellsRange", "英雄法术范围").SetValue(true));
-                    drawingMenu.AddItem(new MenuItem(Name + "DrawingDamageTillSmite", "直到伤害").SetValue(true));
+                        new MenuItem(Name + "DrawingUnusableColor", "不可用的顏色").SetValue(Color.Gray));
+                    drawingMenu.AddItem(new MenuItem(Name + "DrawingDamageColor", "損害顏色").SetValue(Color.SkyBlue));
+                    drawingMenu.AddItem(new MenuItem(Name + "DrawingSmiteRange", "攻擊範圍").SetValue(true));
+                    drawingMenu.AddItem(new MenuItem(Name + "DrawingHeroSpellsRange", "英雄法術範圍").SetValue(true));
+                    drawingMenu.AddItem(new MenuItem(Name + "DrawingDamageTillSmite", "直到傷害").SetValue(true));
 
                     Menu.AddSubMenu(spellsMenu);
                     Menu.AddSubMenu(drawingMenu);
@@ -139,7 +139,7 @@ namespace SFXUtility.Feature
                     Menu.AddItem(new MenuItem(Name + "SmallCamps", "小Camps").SetValue(false));
                     Menu.AddItem(new MenuItem(Name + "PacketCasting", "封包").SetValue(false));
                     Menu.AddItem(
-                        new MenuItem(Name + "Enabled", "启用").SetValue(new KeyBind('N', KeyBindType.Toggle, true)));
+                        new MenuItem(Name + "Enabled", "啟用").SetValue(new KeyBind('N', KeyBindType.Toggle, true)));
 
                     _activators.Menu.AddSubMenu(Menu);
 

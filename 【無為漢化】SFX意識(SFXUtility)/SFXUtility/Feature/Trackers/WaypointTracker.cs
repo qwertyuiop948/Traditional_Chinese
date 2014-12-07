@@ -68,7 +68,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "航点"; }
+            get { return "航點"; }
         }
 
         #endregion
@@ -156,15 +156,15 @@ namespace SFXUtility.Feature
 
                     Menu = new Menu(Name, Name);
 
-                    var drawingMenu = new Menu("绘制", Name + "Drawing");
-                    drawingMenu.AddItem(new MenuItem(Name + "DrawingCrossColor", "交叉颜色").SetValue(Color.DarkRed));
-                    drawingMenu.AddItem(new MenuItem(Name + "DrawingLineColor", "线的颜色").SetValue(Color.White));
+                    var drawingMenu = new Menu("繪製", Name + "Drawing");
+                    drawingMenu.AddItem(new MenuItem(Name + "DrawingCrossColor", "交叉顏色").SetValue(Color.DarkRed));
+                    drawingMenu.AddItem(new MenuItem(Name + "DrawingLineColor", "線的顏色").SetValue(Color.White));
 
                     Menu.AddSubMenu(drawingMenu);
 
-                    Menu.AddItem(new MenuItem(Name + "DrawAlly", "队友").SetValue(false));
-                    Menu.AddItem(new MenuItem(Name + "DrawEnemy", "敌人").SetValue(true));
-                    Menu.AddItem(new MenuItem(Name + "Enabled", "启用").SetValue(false));
+                    Menu.AddItem(new MenuItem(Name + "DrawAlly", "隊友").SetValue(false));
+                    Menu.AddItem(new MenuItem(Name + "DrawEnemy", "敵人").SetValue(true));
+                    Menu.AddItem(new MenuItem(Name + "Enabled", "啟用").SetValue(false));
 
                     _trackers.Menu.AddSubMenu(Menu);
 

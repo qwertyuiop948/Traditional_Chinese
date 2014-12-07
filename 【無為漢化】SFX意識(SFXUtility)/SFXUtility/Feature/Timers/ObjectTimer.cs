@@ -248,12 +248,12 @@ namespace SFXUtility.Feature
 
                     Menu = new Menu(Name, Name);
 
-                    var drawingMenu = new Menu("绘制", Name + "Drawing");
-                    drawingMenu.AddItem(new MenuItem(Name + "DrawingColor", "颜色").SetValue(Color.Yellow));
+                    var drawingMenu = new Menu("繪製", Name + "Drawing");
+                    drawingMenu.AddItem(new MenuItem(Name + "DrawingColor", "顏色").SetValue(Color.Yellow));
 
                     Menu.AddSubMenu(drawingMenu);
 
-                    Menu.AddItem(new MenuItem(Name + "Enabled", "启用").SetValue(true));
+                    Menu.AddItem(new MenuItem(Name + "Enabled", "啟用").SetValue(true));
 
                     _timers.Menu.AddSubMenu(Menu);
 

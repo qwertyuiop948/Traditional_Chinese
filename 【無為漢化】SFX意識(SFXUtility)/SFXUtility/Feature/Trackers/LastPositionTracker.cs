@@ -70,7 +70,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "最后的位置"; }
+            get { return "最後的位置"; }
         }
 
         #endregion
@@ -156,7 +156,7 @@ namespace SFXUtility.Feature
 
                     Menu = new Menu(Name, Name);
 
-                    var eMenuItem = new MenuItem(Name + "Enabled", "启用").SetValue(true);
+                    var eMenuItem = new MenuItem(Name + "Enabled", "啟用").SetValue(true);
                     eMenuItem.ValueChanged +=
                         (sender, args) => _enemies.ForEach(enemy => enemy.Active = args.GetNewValue<bool>());
 
