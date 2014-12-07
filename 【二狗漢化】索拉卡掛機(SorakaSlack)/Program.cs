@@ -216,7 +216,7 @@ namespace TeachingLeagueSharp
             //if (follow != null)
             // followpos = follow.Position;
             followtime = Game.Time;
-            Game.PrintChat("鏈€鏂扮儲鎷■崱■■ 鍔犺級鎴愬姛錛佹饑鍖朾y濱■嫍錛■Q緹361630847");
+            Game.PrintChat("最新索拉卡掛機 加載成功！漢化by二狗！QQ群|361630847");
             //Game.PrintChat("in5");
             //int counter = 0;
             //foreach (var item in ids)

@@ -17,7 +17,7 @@ namespace TAC_Kalista
         static void Main(string[] args)
         {
             Game.PrintChat("---------------------------");
-            Game.PrintChat("[<font color='#FF0000'>v3.7</font>]<font color='#7A6EFF'>Twilight's Auto Carry:</font> <font color='#86E5E1'>鐏甸瓊涔嬬煕  鍔犺級鎴愬姛锛佹饥鍖朾y浜岀嫍锛丵Q缇361630847!</font>");
+            Game.PrintChat("[<font color='#FF0000'>v3.7</font>]<font color='#7A6EFF'>Twilight's Auto Carry:</font> <font color='#86E5E1'>靈魂之矛  加載成功！漢化by二狗！QQ群|361630847!</font>");
             CustomEvents.Game.OnGameLoad += Load;
         }
         public static void Load(EventArgs args)

@@ -79,7 +79,7 @@ namespace MasterActivator
         private void onLoad(EventArgs args)
         {
             // Boas vindas
-            Game.PrintChat("<font color='#3BB9FF'>Master|媧誨寲■■ - by Crisdmc 奼■寲by濱■嫍!QQ緹36163084 - </font>鍔犺澆鎴愬姛!");
+            Game.PrintChat("<font color='#3BB9FF'>Master|活化劑| - by Crisdmc 漢化by二狗!QQ群|36163084 - </font>加載成功!");
 
             try
             {

@@ -149,8 +149,8 @@ namespace Evade
             //Initialze the collision
             Collision.Init();
 
-            Game.PrintChat("<font color=\"#00BFFF\">銆愮劇鐐烘眽鍖栥€慹vade韬查伩# -</font> <font color=\"#FFFFFF\">鍔犺浇鎴愬姛</font>");
-			Game.PrintChat("<font color=\"#FFFFFF\">    鏇村姹夊寲鑴氭湰璇峰姞</font> <font color=\"#FFFF00\">   L#姹夊寲缇わ細386289593</font> ");
+            Game.PrintChat("<font color=\"#00BFFF\">【無為漢化】evade躲避# -</font> <font color=\"#FFFFFF\">加載成功</font>");
+			Game.PrintChat("<font color=\"#FFFFFF\">    更多漢化腳本請加</font> <font color=\"#FFFF00\">   L#漢化群：386289593</font> ");
 
 
             if (Config.PrintSpellData)
