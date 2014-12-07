@@ -72,7 +72,7 @@ XinZhao
 Twilight's Auto Carry(TAC)
 ===================
 
-Github¡Ghttps://github.com/twilightlol/leaguesharp	
+Github¡Ghttps://github.com/twilightlol/leaguesharp/	
 L# Forum¡Ghttp://www.joduska.me/forum/topic/4953-version-370-twilights-auto-carry-kalista/
 
 
