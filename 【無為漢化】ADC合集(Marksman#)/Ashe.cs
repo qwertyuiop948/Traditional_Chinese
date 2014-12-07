@@ -182,7 +182,7 @@ namespace Marksman
         public override bool MiscMenu(Menu config)
         {
             config.AddItem(new MenuItem("QExploit" + Id, "使用 Q 漏斗").SetValue(true));
-            config.AddItem(new MenuItem("RInterruptable" + Id, "自動 R 可中斷的咒語").SetValue(true))
+            config.AddItem(new MenuItem("RInterruptable" + Id, "自動 R 可中斷的咒語").SetValue(true));
             config.AddItem(new MenuItem("EFlash" + Id, "使用 E 查看閃現").SetValue(true));
             config.AddItem(new MenuItem("RManualCast" + Id, "手動R(2000 範圍)"))
                 .SetValue(new KeyBind('T', KeyBindType.Press));
