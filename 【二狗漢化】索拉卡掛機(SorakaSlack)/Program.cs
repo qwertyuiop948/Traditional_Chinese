@@ -96,7 +96,7 @@ namespace TeachingLeagueSharp
             //Game.PrintChat("in1");
             ts = new TargetSelector(1025, TargetSelector.TargetingMode.AutoPriority);
             stufftosay = new[] { "馬上回來", "回去補給", "回家買裝備啦" };
-            deaths = new[] { "我的天阿", "這遊戲太難了", "好好來一次，速度推了", "延遲 ....我卡" };
+            deaths = new[] { "我的天哪", "這遊戲太難了", "好好來一次，速度推了", "延遲 ....我卡" };
             spawn =
                 ObjectManager.Get<GameObject>()
                     .First(x => x.Type == GameObjectType.obj_SpawnPoint && x.Team == ObjectManager.Player.Team)
@@ -148,7 +148,7 @@ namespace TeachingLeagueSharp
                 new ItemToShop
                 {
                     goldReach = 180,
-                    itemsMustHave = new List<int> { 1033, 1004, 1004 },
+                    itemsMustHave = new List<int> { 1003, 1004, 1004 },
                     itemIds = new List<int> { 3028 }
                 },
                 new ItemToShop
@@ -216,7 +216,7 @@ namespace TeachingLeagueSharp
             //if (follow != null)
             // followpos = follow.Position;
             followtime = Game.Time;
-            Game.PrintChat("最新索拉卡掛機 加載成功！漢化by二狗！QQ群|361630847");
+            Game.PrintChat("NEWEST Soraka Slack loaded");
             //Game.PrintChat("in5");
             //int counter = 0;
             //foreach (var item in ids)
