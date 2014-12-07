@@ -61,7 +61,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "無為汉化─范围"; }
+            get { return "無為漢化─範圍"; }
         }
 
         #endregion
@@ -259,31 +259,31 @@ namespace SFXUtility.Feature
 
                 Menu = new Menu(Name, Name);
 
-                var experienceMenu = new Menu("经验", Name + "Experience");
-                experienceMenu.AddItem(new MenuItem(Name + "ExperienceColor", "颜色").SetValue(Color.Gray));
+                var experienceMenu = new Menu("經驗", Name + "Experience");
+                experienceMenu.AddItem(new MenuItem(Name + "ExperienceColor", "顏色").SetValue(Color.Gray));
                 experienceMenu.AddItem(new MenuItem(Name + "ExperienceSelf", "自己").SetValue(true));
-                experienceMenu.AddItem(new MenuItem(Name + "ExperienceFriendly", "队友").SetValue(true));
-                experienceMenu.AddItem(new MenuItem(Name + "ExperienceEnemy", "敌人").SetValue(true));
+                experienceMenu.AddItem(new MenuItem(Name + "ExperienceFriendly", "隊友").SetValue(true));
+                experienceMenu.AddItem(new MenuItem(Name + "ExperienceEnemy", "敵人").SetValue(true));
 
-                var attackMenu = new Menu("攻击", Name + "Attack");
-                attackMenu.AddItem(new MenuItem(Name + "AttackColor", "队友").SetValue(Color.Yellow));
+                var attackMenu = new Menu("攻擊", Name + "Attack");
+                attackMenu.AddItem(new MenuItem(Name + "AttackColor", "隊友").SetValue(Color.Yellow));
                 attackMenu.AddItem(new MenuItem(Name + "AttackSelf", "自己").SetValue(true));
-                attackMenu.AddItem(new MenuItem(Name + "AttackFriendly", "队友").SetValue(true));
-                attackMenu.AddItem(new MenuItem(Name + "AttackEnemy", "敌人").SetValue(true));
+                attackMenu.AddItem(new MenuItem(Name + "AttackFriendly", "隊友").SetValue(true));
+                attackMenu.AddItem(new MenuItem(Name + "AttackEnemy", "敵人").SetValue(true));
 
                 var turretMenu = new Menu("炮塔", Name + "Turret");
-                turretMenu.AddItem(new MenuItem(Name + "TurretFriendlyColor", "队友颜色").SetValue(Color.DarkGreen));
-                turretMenu.AddItem(new MenuItem(Name + "TurretEnemyColor", "敌人颜色").SetValue(Color.DarkRed));
-                turretMenu.AddItem(new MenuItem(Name + "TurretFriendly", "队友").SetValue(true));
-                turretMenu.AddItem(new MenuItem(Name + "TurretEnemy", "敌人").SetValue(true));
+                turretMenu.AddItem(new MenuItem(Name + "TurretFriendlyColor", "隊友顏色").SetValue(Color.DarkGreen));
+                turretMenu.AddItem(new MenuItem(Name + "TurretEnemyColor", "敵人顏色").SetValue(Color.DarkRed));
+                turretMenu.AddItem(new MenuItem(Name + "TurretFriendly", "隊友").SetValue(true));
+                turretMenu.AddItem(new MenuItem(Name + "TurretEnemy", "敵人").SetValue(true));
 
-                var spellMenu = new Menu("法术", Name + "Spell");
+                var spellMenu = new Menu("法術", Name + "Spell");
                 spellMenu.AddItem(
-                    new MenuItem(Name + "SpellMaxRange", "最大法术范围ㄧ").SetValue(new Slider(1000, 500, 3000)));
+                    new MenuItem(Name + "SpellMaxRange", "最大法術範圍ㄧ").SetValue(new Slider(1000, 500, 3000)));
 
 
                 var spellSelfMenu = new Menu("自己", Name + "SpellSelf");
-                spellSelfMenu.AddItem(new MenuItem(Name + "SpellSelfColor", "颜色").SetValue(Color.Purple));
+                spellSelfMenu.AddItem(new MenuItem(Name + "SpellSelfColor", "顏色").SetValue(Color.Purple));
                 spellSelfMenu.AddItem(new MenuItem(Name + "SpellSelfQ", "Q").SetValue(true));
                 spellSelfMenu.AddItem(new MenuItem(Name + "SpellSelfW", "W").SetValue(true));
                 spellSelfMenu.AddItem(new MenuItem(Name + "SpellSelfE", "E").SetValue(true));
@@ -291,8 +291,8 @@ namespace SFXUtility.Feature
 
                 spellMenu.AddSubMenu(spellSelfMenu);
 
-                var spellFriendlyMenu = new Menu("队友", Name + "SpellFriendly");
-                spellFriendlyMenu.AddItem(new MenuItem(Name + "SpellFriendlyColor", "颜色").SetValue(Color.Green));
+                var spellFriendlyMenu = new Menu("隊友", Name + "SpellFriendly");
+                spellFriendlyMenu.AddItem(new MenuItem(Name + "SpellFriendlyColor", "顏色").SetValue(Color.Green));
                 spellFriendlyMenu.AddItem(new MenuItem(Name + "SpellFriendlyQ", "Q").SetValue(true));
                 spellFriendlyMenu.AddItem(new MenuItem(Name + "SpellFriendlyW", "W").SetValue(true));
                 spellFriendlyMenu.AddItem(new MenuItem(Name + "SpellFriendlyE", "E").SetValue(true));
@@ -300,8 +300,8 @@ namespace SFXUtility.Feature
 
                 spellMenu.AddSubMenu(spellFriendlyMenu);
 
-                var spellEnemyMenu = new Menu("敌人", Name + "SpellEnemy");
-                spellEnemyMenu.AddItem(new MenuItem(Name + "SpellEnemyColor", "颜色").SetValue(Color.Red));
+                var spellEnemyMenu = new Menu("敵人", Name + "SpellEnemy");
+                spellEnemyMenu.AddItem(new MenuItem(Name + "SpellEnemyColor", "顏色").SetValue(Color.Red));
                 spellEnemyMenu.AddItem(new MenuItem(Name + "SpellEnemyQ", "Q").SetValue(true));
                 spellEnemyMenu.AddItem(new MenuItem(Name + "SpellEnemyW", "W").SetValue(true));
                 spellEnemyMenu.AddItem(new MenuItem(Name + "SpellEnemyE", "E").SetValue(true));
@@ -309,10 +309,10 @@ namespace SFXUtility.Feature
 
                 spellMenu.AddSubMenu(spellEnemyMenu);
 
-                var distanceMenu = new Menu("距离", Name + "Distance");
-                distanceMenu.AddItem(new MenuItem(Name + "DistanceEnabled", "极限距离").SetValue(true));
+                var distanceMenu = new Menu("距離", Name + "Distance");
+                distanceMenu.AddItem(new MenuItem(Name + "DistanceEnabled", "極限距離").SetValue(true));
                 distanceMenu.AddItem(
-                    new MenuItem(Name + "DistanceLimit", "距离限制").SetValue(new Slider(1500, 500, 3000)));
+                    new MenuItem(Name + "DistanceLimit", "距離限制").SetValue(new Slider(1500, 500, 3000)));
 
                 Menu.AddSubMenu(experienceMenu);
                 Menu.AddSubMenu(attackMenu);
@@ -320,7 +320,7 @@ namespace SFXUtility.Feature
                 Menu.AddSubMenu(spellMenu);
                 Menu.AddSubMenu(distanceMenu);
 
-                Menu.AddItem(new MenuItem(Name + "Enabled", "启用").SetValue(false));
+                Menu.AddItem(new MenuItem(Name + "Enabled", "啟用").SetValue(false));
 
                 BaseMenu.AddSubMenu(Menu);
 

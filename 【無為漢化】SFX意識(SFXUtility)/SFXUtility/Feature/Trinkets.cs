@@ -62,7 +62,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "無為汉化─饰品"; }
+            get { return "無為漢化─飾品"; }
         }
 
         #endregion
@@ -77,35 +77,35 @@ namespace SFXUtility.Feature
 
                 Menu = new Menu(Name, Name);
 
-                var timersMenu = new Menu("定时", Name + "Timers");
+                var timersMenu = new Menu("定時", Name + "Timers");
                 timersMenu.AddItem(
-                    new MenuItem(Name + "TimersWardingTotem", "监视图腾 分钟").SetValue(new Slider(0, 0, 60)));
+                    new MenuItem(Name + "TimersWardingTotem", "監視圖騰 分鐘").SetValue(new Slider(0, 0, 60)));
                 timersMenu.AddItem(
-                    new MenuItem(Name + "TimersSweepingLens", "透视扫描 分钟").SetValue(new Slider(20, 0, 60)));
+                    new MenuItem(Name + "TimersSweepingLens", "透視掃描 分鐘").SetValue(new Slider(20, 0, 60)));
                 timersMenu.AddItem(
-                    new MenuItem(Name + "TimersScryingOrb", "占扑宝珠 分钟").SetValue(new Slider(45, 0, 60)));
-                timersMenu.AddItem(new MenuItem(Name + "TimersWardingTotemEnabled", "购买监视图腾").SetValue(true));
-                timersMenu.AddItem(new MenuItem(Name + "TimersSweepingLensEnabled", "购买透视扫描").SetValue(true));
-                timersMenu.AddItem(new MenuItem(Name + "TimersScryingOrbEnabled", "购买占扑宝珠").SetValue(false));
-                timersMenu.AddItem(new MenuItem(Name + "TimersEnabled", "启用").SetValue(true));
+                    new MenuItem(Name + "TimersScryingOrb", "占撲寶珠 分鐘").SetValue(new Slider(45, 0, 60)));
+                timersMenu.AddItem(new MenuItem(Name + "TimersWardingTotemEnabled", "購買監視圖騰").SetValue(true));
+                timersMenu.AddItem(new MenuItem(Name + "TimersSweepingLensEnabled", "購買透視掃描").SetValue(true));
+                timersMenu.AddItem(new MenuItem(Name + "TimersScryingOrbEnabled", "購買占撲寶珠").SetValue(false));
+                timersMenu.AddItem(new MenuItem(Name + "TimersEnabled", "啟用").SetValue(true));
 
                 var eventsMenu = new Menu("事件", Name + "Events");
                 eventsMenu.AddItem(new MenuItem(Name + "EventsSightstone", "洞察之石").SetValue(true));
                 eventsMenu.AddItem(new MenuItem(Name + "EventsRubySightstone", "洞察水晶").SetValue(true));
-                eventsMenu.AddItem(new MenuItem(Name + "EventsWrigglesLantern", "瑞格之灯").SetValue(true));
+                eventsMenu.AddItem(new MenuItem(Name + "EventsWrigglesLantern", "瑞格之燈").SetValue(true));
                 eventsMenu.AddItem(new MenuItem(Name + "EventsFeralFlare", "野火").SetValue(true));
                 eventsMenu.AddItem(new MenuItem(Name + "EventsQuillCoat", "尖刺外套").SetValue(true));
-                eventsMenu.AddItem(new MenuItem(Name + "EventsAncientGolem", "远古石像").SetValue(true));
+                eventsMenu.AddItem(new MenuItem(Name + "EventsAncientGolem", "遠古石像").SetValue(true));
                 eventsMenu.AddItem(
                     new MenuItem(Name + "EventsBuyTrinket", "Buy Trinket").SetValue(
                         new StringList(new[] {"Yellow", "Red", "Blue"})));
-                eventsMenu.AddItem(new MenuItem(Name + "EventsEnabled", "启用").SetValue(true));
+                eventsMenu.AddItem(new MenuItem(Name + "EventsEnabled", "啟用").SetValue(true));
 
                 Menu.AddSubMenu(timersMenu);
                 Menu.AddSubMenu(eventsMenu);
 
-                Menu.AddItem(new MenuItem(Name + "SellUpgraded", "出售升级").SetValue(false));
-                Menu.AddItem(new MenuItem(Name + "Enabled", "启用").SetValue(true));
+                Menu.AddItem(new MenuItem(Name + "SellUpgraded", "出售升級").SetValue(false));
+                Menu.AddItem(new MenuItem(Name + "Enabled", "啟用").SetValue(true));
 
                 BaseMenu.AddSubMenu(Menu);
 

@@ -54,7 +54,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "無為汉化─自动加点"; }
+            get { return "無為漢化─自動加點"; }
         }
 
         #endregion
@@ -128,7 +128,7 @@ namespace SFXUtility.Feature
                 Menu.AddSubMenu(patternMenu);
 
                 Menu.AddItem(new MenuItem(Name + "OnlyR", "只加 R").SetValue(false));
-                Menu.AddItem(new MenuItem(Name + "Enabled", "启用").SetValue(false));
+                Menu.AddItem(new MenuItem(Name + "Enabled", "啟用").SetValue(false));
 
                 BaseMenu.AddSubMenu(Menu);
 

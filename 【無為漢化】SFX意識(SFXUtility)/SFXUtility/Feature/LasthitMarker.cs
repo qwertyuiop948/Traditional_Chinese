@@ -68,7 +68,7 @@ namespace SFXUtility.Feature
 
         public override string Name
         {
-            get { return "無為汉化─击杀信息"; }
+            get { return "無為漢化─擊殺信息"; }
         }
 
         #endregion
@@ -124,36 +124,36 @@ namespace SFXUtility.Feature
 
                 Menu = new Menu(Name, Name);
 
-                var drawingMenu = new Menu("绘制", Name + "Drawing");
+                var drawingMenu = new Menu("繪製", Name + "Drawing");
 
-                var drawingHpBarMenu = new Menu("击杀信息", Name + "HPBar");
+                var drawingHpBarMenu = new Menu("擊殺信息", Name + "HPBar");
                 drawingHpBarMenu.AddItem(
-                    new MenuItem(Name + "DrawingHpBarKillableColor", "击杀颜色").SetValue(Color.Green));
+                    new MenuItem(Name + "DrawingHpBarKillableColor", "擊殺顏色").SetValue(Color.Green));
                 drawingHpBarMenu.AddItem(
-                    new MenuItem(Name + "DrawingHpBarUnkillableColor", "无法击杀颜色").SetValue(Color.White));
+                    new MenuItem(Name + "DrawingHpBarUnkillableColor", "無法擊殺顏色").SetValue(Color.White));
                 drawingHpBarMenu.AddItem(
-                    new MenuItem(Name + "DrawingHpBarLinesThickness", "线的厚度").SetValue(new Slider(1, 1, 10)));
-                drawingHpBarMenu.AddItem(new MenuItem(Name + "DrawingHpBarEnabled", "启用").SetValue(true));
+                    new MenuItem(Name + "DrawingHpBarLinesThickness", "線的厚度").SetValue(new Slider(1, 1, 10)));
+                drawingHpBarMenu.AddItem(new MenuItem(Name + "DrawingHpBarEnabled", "啟用").SetValue(true));
 
-                var drawingCirclesMenu = new Menu("线圈", Name + "Circle");
+                var drawingCirclesMenu = new Menu("線圈", Name + "Circle");
                 drawingCirclesMenu.AddItem(
-                    new MenuItem(Name + "DrawingCircleColor", "圈的颜色").SetValue(Color.Fuchsia));
+                    new MenuItem(Name + "DrawingCircleColor", "圈的顏色").SetValue(Color.Fuchsia));
                 drawingCirclesMenu.AddItem(
                     new MenuItem(Name + "DrawingCircleRadius", "圈的厚度").SetValue(new Slider(30)));
-                drawingCirclesMenu.AddItem(new MenuItem(Name + "DrawingCircleEnabled", "启用").SetValue(true));
+                drawingCirclesMenu.AddItem(new MenuItem(Name + "DrawingCircleEnabled", "啟用").SetValue(true));
 
                 drawingMenu.AddSubMenu(drawingHpBarMenu);
                 drawingMenu.AddSubMenu(drawingCirclesMenu);
 
-                var distanceMenu = new Menu("距离", Name + "Distance");
-                distanceMenu.AddItem(new MenuItem(Name + "DistanceEnabled", "极限距离").SetValue(true));
+                var distanceMenu = new Menu("距離", Name + "Distance");
+                distanceMenu.AddItem(new MenuItem(Name + "DistanceEnabled", "極限距離").SetValue(true));
                 distanceMenu.AddItem(
-                    new MenuItem(Name + "DistanceLimit", "距离限制").SetValue(new Slider(1000, 500, 3000)));
+                    new MenuItem(Name + "DistanceLimit", "距離限制").SetValue(new Slider(1000, 500, 3000)));
 
                 Menu.AddSubMenu(drawingMenu);
                 Menu.AddSubMenu(distanceMenu);
 
-                Menu.AddItem(new MenuItem(Name + "Enabled", "启用").SetValue(true));
+                Menu.AddItem(new MenuItem(Name + "Enabled", "啟用").SetValue(true));
 
                 BaseMenu.AddSubMenu(Menu);
 
