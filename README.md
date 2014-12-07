@@ -90,6 +90,12 @@ Github¡Ghttps://github.com/DZ191/LeagueSharp
 L# Forum¡Ghttp://www.joduska.me/forum/topic/11-sbtw-fioraraven-by-dz191/
 
 
+Soraka Slack
+===================
+
+Github¡Ghttps://github.com/blm95/LeagueSharp2	
+L# Forum¡Ghttp://www.joduska.me/forum/topic/5247-1130-updated-soraka-slack/
+
 SFXUtility
 ===================
 
