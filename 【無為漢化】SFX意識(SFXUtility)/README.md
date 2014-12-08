@@ -1,6 +1,10 @@
 SFXUtility
 ===========
 
+Github¡Ghttps://github.com/SephLeague/LeagueSharp	
+L# Forum¡GµL
+
+
 Auto Leveler
 ---------------
 Automatically levels up your spells. From level 2-3 or 2-4 it uses a selectable pattern.
@@ -48,7 +52,3 @@ License
 
 GNU - General Public License
 
-
-**Free Software, Hell Yeah!**
-
-[Nikita Bernthaler]:http://smokyfox.com/
