@@ -148,7 +148,7 @@ L# Forum：http://www.joduska.me/forum/topic/1733-rivensharpv2
 LxOrbwalker Standalone
 ===================
 
-安裝前必須安裝：
+安裝前必須安裝：	
 xSLx Orbwalker (Library)	
 xSLx TargetSelector (Library)	
 
