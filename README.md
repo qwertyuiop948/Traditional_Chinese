@@ -129,3 +129,10 @@ MasterSharp-Yi
 
 Github¡Ghttps://github.com/detuks/LeagueSharp/tree/master/MasterSharp	
 L# Forum¡Ghttp://www.joduska.me/forum/topic/7345-i-hope-its-opmastersharp-da-true-yi-good-update-on/
+
+
+Royal Ashe Helper
+===================
+
+Github¡Ghttps://github.com/princer007/LSResurrected/tree/master/RoyalAsheHelper		
+L# Forum¡Ghttp://www.joduska.me/forum/topic/7606-royal-ashe-helpernow-with-smooth-q-exploit/#entry74451
