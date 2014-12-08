@@ -1,4 +1,4 @@
-﻿// Copyright 2014 - 2014 Esk0r
+// Copyright 2014 - 2014 Esk0r
 // Program.cs is part of Evade.
 // 
 // Evade is free software: you can redistribute it and/or modify

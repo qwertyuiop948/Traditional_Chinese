@@ -2634,7 +2634,7 @@ namespace Evade
                 new SpellData
                 {
                     ChampionName = "Sona",
-                    SpellName = "SonaR",
+                    SpellName = "SonaCrescendo",
                     Slot = SpellSlot.R,
                     Type = SkillShotType.SkillshotMissileLine,
                     Delay = 250,
@@ -2645,7 +2645,7 @@ namespace Evade
                     AddHitbox = true,
                     DangerValue = 5,
                     IsDangerous = true,
-                    MissileSpellName = "SonaR",
+                    MissileSpellName = "SonaCrescendo",
                     CollisionObjects = new[] { CollisionObjectTypes.YasuoWall },
                 });
 
