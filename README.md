@@ -154,3 +154,10 @@ xSLx TargetSelector (Library)
 
 Github¡Ghttps://github.com/E2Slayer/LeagueSharp		
 L# Forum¡Ghttp://www.joduska.me/forum/topic/4649-xslx-orbwalker-standalone/
+
+
+MasterActivator
+===================
+
+Github¡Ghttp://www.joduska.me/forum/topic/355-masteractivator/?hl=active	
+L# Forum¡Ghttp://www.joduska.me/forum/topic/355-masteractivator
