@@ -4,22 +4,26 @@ Support is Easy
 Github¡Ghttps://github.com/h3h3/LeagueSharp	
 L# Forum¡Ghttp://www.joduska.me/forum/topic/170-aio-support-is-easy
 
+Champions	
 Alistar		
 Blitzcrank	
 Braum		
 Fiddlesticks - WIP	
-Janna	
+Janna		
 Karma - WIP	
-Leona	
+Leona		
 Lulu - WIP	
-Morgana	
+Morgana		
 Nunu	
 Nami	
 Sona	
-Taric - WIP	
-Thresh - WIP	
-Zilean - WIP	
+Taric - WIP		
+Thresh - WIP		
+Zilean - WIP		
 Zyra - WIP	
+
+Kayle - Disabled	
+Soraka - Disabled	
 
 Marksman#
 ===================
